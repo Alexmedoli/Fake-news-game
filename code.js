@@ -29,7 +29,6 @@ function setNextQuestion() {
 
 function showQuestion(question) {
   questionElement.innerText = question.question
-  questionText.setAttribute('src' , 'imagens/')
   question.answers.forEach(answer => {
     const button = document.createElement('button')
     button.innerText = answer.text
@@ -116,7 +115,7 @@ const questions = [
     ]
   },
   {
-    question: 'Estas características sobre o signo de Áries do site "personare.com" contam como fake news?'https://drive.google.com/file/d/1EH91nzP-0YRR0VYV48tSZu2JmNzOYriY/view?usp=sharing,
+    question: 'Estas características sobre o signo de Áries do site "personare.com" contam como fake news? https://drive.google.com/file/d/1EH91nzP-0YRR0VYV48tSZu2JmNzOYriY/view?usp=sharing',
     answers: [
       { text: 'Sim, o site propaga conceitos não científicos e espalha desinformação', correct: false },
       { text: 'Não, e tudo que a reportagem disse é verdadeiro', correct: false },
