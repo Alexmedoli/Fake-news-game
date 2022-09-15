@@ -84,7 +84,7 @@ const questions = [
     question: 'Esse tuíte do ex senador Magno Malta contém um exemplo de Fake news? ', 
     imagem: 'imagens/magnomaltavacinacao.png',
     answers: [
-      { text: 'Sim, discursos emocionais são uma estratégia de persuasão e propogação das Fake news', correct: true },
+      { text: 'Sim, discursos emocionais são uma estratégia de persuasão e propagação das Fake news', correct: true },
       { text: 'Não, o entusiasmo em seu discurso é uma forma de demonstrar como o problema é real', correct: false }
     ]
   },
@@ -92,9 +92,9 @@ const questions = [
     question: 'Este tuíte de Ricardo Barros contém um exemplo de Fake news?',
     imagem: 'imagens/ricardobarrosovotoauditável.png',
     answers: [
-      { text: 'Não, mas o autor não pode ter razão em relação aos votos auditáveis', correct: false },
+      { text: 'Não, mas o autor pode ter razão em relação aos votos auditáveis', correct: false },
       { text: 'Não, o voto auditável realmente pode aumentar o nível de segurança das eleições', correct: false },
-      { text: 'Sim, a distorção ou má representação de um problema é uma forma de espalhar noticias falsas', correct: true },
+      { text: 'Sim, a distorção ou má representação de um problema são formas de espalhar noticias falsas', correct: true },
   
     ]
   },
@@ -107,19 +107,19 @@ const questions = [
     ]
   },
   {
-    question: 'Esta reportagem da Folha de São Paulo sobre Enéas Carneiro contém alguma Fake News',
+    question: 'Esta reportagem da Folha de São Paulo sobre Enéas Carneiro contém alguma Fake News?',
     answers: [
       { text: 'Não, Enéas realmente superestimava o valor do Nióbio', correct: true },
-      { text: 'Sim, o Nióbio e o quartzo brasileiros, ao contrário do que pensava Enéas, não tem tanto valor', correct: true },
+      { text: 'Sim, o Nióbio e o quartzo brasileiros, ao contrário do que pensava Enéas, não têm tanto valor', correct: true },
       { text: 'Não, a privatização da Vale do Rio Doce realmente era criticável e acabou gerando problemas para os brasileiros', correct: true },
       { text: 'Sim e não... um texto pode ter partes verdadeiras e ainda propagar informações falsas', correct: true }
     ]
   },
   {
-    question: 'Este horóscopo sobre o signo de Áries do site "personare.com" conta como fake news?',
+    question: 'Estas características sobre o signo de Áries do site "personare.com" contam como fake news?',
     answers: [
-      { text: 'Sim, o site espalha conceitos não científicos e espalha desinformação', correct: false },
-      { text: 'Sim, e tudo que a reportagem disse é verdadeiro', correct: false },
+      { text: 'Sim, o site propaga conceitos não científicos e espalha desinformação', correct: false },
+      { text: 'Não, e tudo que a reportagem disse é verdadeiro', correct: false },
       { text: 'Não, apesar de não ter base científica, o texto não aparenta intecionalidade maliciosa', correct: true },
       { text: 'Não exatamente, mas publicam material não científico para explorar um público desinformado', correct: true}
 
