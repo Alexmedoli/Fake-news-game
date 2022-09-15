@@ -29,6 +29,7 @@ function setNextQuestion() {
 
 function showQuestion(question) {
   questionElement.innerText = question.question
+  questionText.getAttribute(imagem = img)
   question.answers.forEach(answer => {
     const button = document.createElement('button')
     button.innerText = answer.text
@@ -80,15 +81,15 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'Esse tuíte do ex senador Magno Malta contém um exemplo de Fake news? https://drive.google.com/file/d/1V3Nf70iMWDSDg5pPltss0Hj8MW6YBk1h/view?usp=sharing', 
-    imagem: 'imagens/magnomaltavacinacao.png',
+    question: 'Esse tuíte do ex senador Magno Malta contém um exemplo de Fake news?', 
+    imagem: "imagens/magnomaltavacinacao.png",
     answers: [
       { text: 'Sim, discursos emocionais são uma estratégia de persuasão e propagação das Fake news', correct: true },
       { text: 'Não, o entusiasmo em seu discurso é uma forma de demonstrar como o problema é real', correct: false }
     ]
   },
   {
-    question: 'Este tuíte de Ricardo Barros contém um exemplo de Fake news? https://drive.google.com/file/d/1D166TP5PZenbJxyg0mndpg5iU84ls_a9/view?usp=sharing',
+    question: 'Este tuíte de Ricardo Barros contém um exemplo de Fake news?',
     imagem: 'imagens/ricardobarrosovotoauditável.png',
     answers: [
       { text: 'Não, mas o autor pode ter razão em relação aos votos auditáveis', correct: false },
@@ -98,7 +99,8 @@ const questions = [
     ]
   },
   {
-    question: 'Esta reportagem de "O sensacionalista" seria considerado como uma Fake news? https://drive.google.com/file/d/1D166TP5PZenbJxyg0mndpg5iU84ls_a9/view?usp=sharing',
+    question: 'Esta reportagem de "O sensacionalista" seria considerado como uma Fake news?',
+    imagem: 'imagens/ricardobarrosovotoauditável.png',
     answers: [
       { text: 'Sim e a divulgação desse material foi maliciosa', correct: false },
       { text: 'É possivel dizer que sim, mas a intenção não é maliciosa', correct: true },
@@ -106,7 +108,8 @@ const questions = [
     ]
   },
   {
-    question: 'Esta reportagem da Folha de São Paulo sobre Enéas Carneiro contém alguma Fake News? https://drive.google.com/file/d/1D166TP5PZenbJxyg0mndpg5iU84ls_a9/view?usp=sharing',
+    question: 'Esta reportagem da Folha de São Paulo sobre Enéas Carneiro contém alguma Fake News? ',
+    imagem: 'imagens/ricardobarrosovotoauditável.png',
     answers: [
       { text: 'Não, Enéas realmente superestimava o valor do Nióbio', correct: true },
       { text: 'Sim, o Nióbio e o quartzo brasileiros, ao contrário do que pensava Enéas, não têm tanto valor', correct: true },
@@ -115,7 +118,8 @@ const questions = [
     ]
   },
   {
-    question: 'Estas características sobre o signo de Áries do site "personare.com" contam como fake news? https://drive.google.com/file/d/1EH91nzP-0YRR0VYV48tSZu2JmNzOYriY/view?usp=sharing',
+    question: 'Estas características sobre o signo de Áries do site "personare.com" contam como fake news? ',
+    imagem: 'imagens/ricardobarrosovotoauditável.png',
     answers: [
       { text: 'Sim, o site propaga conceitos não científicos e espalha desinformação', correct: false },
       { text: 'Não, e tudo que a reportagem disse é verdadeiro', correct: false },
